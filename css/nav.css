@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1300px;
+    width: 90%;
+    margin: 0% auto;
+}
+header nav{
+    padding: 15px;
+    margin: px;
+    /* border:2px solid rgb(100, 210, 230); */
+
+}
+header.header nav.navbar h2.brand{
+    color: rgb(43, 5, 131);
+    display: inline-block;
+    padding: 10px;
+    
+}
+header.header nav.navbar ul.nav-item{
+    list-style-type:none ;
+    background-color: none;
+    display: inline-block;
+    float: right;
+    padding-right :0px; 
+    margin-right: 0px;
+}
+header.header nav.navbar ul.nav-item li{
+    float: left;
+    padding:10px 20px;
+    list-style: none;
+}
+header.header nav.navbar ul.nav-item li a,
+header.header nav.navbar ul.nav-item li a:visited
+{
+    color: rgb(0, 0, 0);
+    background-color: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header.header nav.navbar ul.nav-item li a:hover{
+    color: rgb(253, 253, 253);
+
+}

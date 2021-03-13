@@ -1,0 +1,181 @@
+body{
+    background:rgb(129, 148, 201);
+}
+
+.header{
+    padding-top: 0%;
+    margin-top: 0%;
+    height: 90vh;
+    background-image: url(../images/header-dubai.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 4px solid red;
+}
+
+div.header-center{
+    background-color:rgba(39, 178, 202, 0.473);
+    border-radius: 50px;
+    text-align: center;
+    margin: 300px 0px;
+    text-transform: uppercase;
+    padding: 30px;
+    border: 2px solid rgba(0, 255, 221, 0.39);
+}
+
+div.header-center h2{
+    color: rgb(70, 0, 0);
+    font-size: 30px;
+    padding: 5px 10px;
+}
+div.header-center p.header-para{
+    color: rgb(0, 21, 80);
+    padding: 10px;
+    font-weight: 700;
+}
+
+div.header-center a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+    background-color: rgb(216, 247, 246);
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid rgb(188, 216, 235);
+    border-radius: 25px;
+}
+section.examples div.container h2{
+    margin: 10px auto;
+    padding: 10px ;
+    border: 5px solid rgba(0, 0, 255, 0.158);
+    border-radius: 50%;
+    color: rgb(206, 41, 41);
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(143, 232, 235);
+    text-transform: uppercase;
+}
+
+section.examples div.container{
+    background: rgba(55, 151, 163, 0.719);
+    /* border: 2px solid springgreen; */
+    padding: 50px;
+}
+.row{
+    /* border: 2px solid; */
+    height: 350px;
+    margin: 55px 30px;
+    background-color: rgba(162, 212, 202, 0.712);
+}
+
+.row1 .image-box, 
+.row2 .text-box{
+    /* background-color: rgb(175, 96, 96); */
+    height: 100%;
+    width: 50%;
+    float: left;
+    /* border: 3px solid blue; */
+}
+.row2 .image-box, 
+.row1 .text-box{
+    /* background-color: rgb(96, 175, 103); */
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.text-box{
+    padding: 25px;
+    border: 2px solid rgba(158, 193, 196, 0.486);
+}
+section.examples div.container .row h3{
+    color: rgb(202, 12, 12);
+    font-size: 25px;
+    text-transform: uppercase;
+}
+section.examples div.container .row p{
+    padding-top: 15px;
+    font-size: 18px;
+    color: rgb(61, 4, 90);
+}
+section.examples div.container .row a,section.examples div.container .row a:visited{
+    color: rgb(211, 9, 9);
+    display: inline-block;
+    background-color:cornflowerblue;
+    padding: 5px 25px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    position: relative;
+    top: 90%;
+    left: 75%;
+    font-size: 22px;
+    font-weight: 700;
+    border: 2px solid rgba(0, 0, 255, 0.493);
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+section.examples div.container .row a:hover{
+    color: darkorchid;
+    border-color: rgba(153, 50, 204, 0.637);
+}
+
+div.outer-row{
+    background-color: #fff;
+    color: rgb(94, 204, 50);
+    margin: 40px 0px;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.486);    
+    padding-left: .1%;
+    padding-top: .1%;
+}
+
+div.inner-col{
+     width: 33.3334%;
+     float: left;
+     padding: 30px;
+     text-align: center;
+}
+div.outer-row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+div.inner-col h2{
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+div.col-1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 0, 57);
+}
+div.col-2{
+    background-color: rgb(9, 145, 138);
+    color: rgb(0, 0, 0);
+}
+div.inner-col svg{
+    font-size: 50px;
+    color: rgb(204, 38, 168);
+}
+div.inner-col p{
+    font-size: 18px;
+}
+footer .outer{
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    color: chartreuse;
+    text-align: center;
+    border-top: 4px solid silver;
+
+}
+footer .outer img{
+    margin: 15px;
+    margin-bottom: 10px;
+}
+footer div.outer a img:hover{
+    /* height: 42px; */
+    margin: 13px;
+
+}
